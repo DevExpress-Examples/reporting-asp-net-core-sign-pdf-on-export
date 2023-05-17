@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/641790266/2023.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1166641)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # Reporting for ASP.NET Core - Use the Web Document Viewer to Sign an Exported PDF Document
 
 This example demonstrates how to sign an exported PDF document. 
@@ -19,11 +14,11 @@ In this example, the `CustomPdfSignatureOptionsProviderAsync` class implements t
 
 Select a signature to sign the exported document from the **Signature** drop down list in the **PDF Export Options** section: 
 
-![Signature Options](images/signature-options.png)
+![Signature Options](Images/signature-options.png)
 
 The selected signature is used to digitally sign the exported PDF document. The [XRPdfSignature](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPdfSignature?v=23.1) control adds a visual signature:
 
-![Signed PDF Document](images/visual-signature.png)
+![Signed PDF Document](Images/visual-signature.png)
 
 ## Customize the Exported Document
 
