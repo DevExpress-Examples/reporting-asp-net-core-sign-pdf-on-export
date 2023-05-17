@@ -1,7 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/641790266/2023.1)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # Reporting for ASP.NET Core - Use the Web Document Viewer to Sign an Exported PDF Document
 
 This example demonstrates how to sign an exported PDF document. 
