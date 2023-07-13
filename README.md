@@ -1,21 +1,14 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/641790266/2023.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1166641)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # Reporting for ASP.NET Core - Use the Web Document Viewer to Sign an Exported PDF Document
 
 This example demonstrates how to sign an exported PDF document. 
 
 ## Add Signature Capabilities to the Document Viewer's UI
 
-**Files:**  [CustomPdfSignatureOptionsProviderAsync.cs](./SignPdfDocumentExample/Services/CustomPdfSignatureOptionsProviderAsync.cs)
- / [CustomPdfSignatureOptionsProvider.cs](./SignPdfDocumentExample/Services/CustomPdfSignatureOptionsProvider.cs)
+**File:**  [CustomPdfSignatureOptionsProviderAsync.cs](./SignPdfDocumentExample/Services/CustomPdfSignatureOptionsProviderAsync.cs)
 
-To pass a collection of signatures to the Web Document Viewer, implement the [IPdfSignatureOptionsProvider](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IPdfSignatureOptionsProvider?v=23.1&p=netframework) or [IPdfSignatureOptionsProviderAsync](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IPdfSignatureOptionsProviderAsync?v=23.1&p=netframework) interface. 
+To pass a collection of signatures to the Web Document Viewer, implement the [IPdfSignatureOptionsProviderAsync](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IPdfSignatureOptionsProviderAsync?v=23.1&p=netframework) interface. 
 
 In this example, the `CustomPdfSignatureOptionsProviderAsync` class implements the [IPdfSignatureOptionsProviderAsync](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IPdfSignatureOptionsProviderAsync?v=23.1&p=netframework) interface. The [GetAvailableOptionsAsync](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IPdfSignatureOptionsProvider.GetAvailableOptions?v=23.1&p=netframework) method returns the dictionary of signature identifiers and [PdfSignatureOptions](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PdfSignatureOptions?v=23.1) objects. This dictionary defines signatures available in the Web Document Viewer.
-
 
 Select a signature to sign the exported document from the **Signature** drop down list in the **PDF Export Options** section: 
 
@@ -41,7 +34,7 @@ To sign the exported document, call the [PdfDocumentSigner.SaveDocument](https:/
 ## Files to Review
 
 - [CustomViewerOperationLogger.cs](./SignPdfDocumentExample/Services/CustomViewerOperationLogger.cs)
-- [CustomPdfSignatureOptionsProvider.cs](./SignPdfDocumentExample/Services/CustomPdfSignatureOptionsProvider.cs)
+- [CustomPdfSignatureOptionsProviderAsync.cs](./SignPdfDocumentExample/Services/CustomPdfSignatureOptionsProviderAsync.cs)
 - [Startup.cs](./SignPdfDocumentExample/Startup.cs#L21)
 
 ## Documentation
@@ -54,4 +47,3 @@ To sign the exported document, call the [PdfDocumentSigner.SaveDocument](https:/
 
 - [PDF Document API - Apply Multiple Signatures](https://github.com/DevExpress-Examples/pdf-document-api-multiple-signatures)
 - [PDF Document API - Add a Visual Signature to a PDF Document](https://github.com/DevExpress-Examples/pdf-document-api-add-visual-signature-to-pdf-document)
-

@@ -23,8 +23,6 @@ namespace SignPdfDocumentExample {
             services.AddScoped<IReportProvider, CustomReportProvider>();
             services.AddScoped<WebDocumentViewerOperationLogger, CustomViewerOperationLogger>();
             services.AddSingleton<IPdfSignatureOptionsProviderAsync, CustomPdfSignatureOptionsProviderAsync>();
-            // Uncomment the following line to use the IPdfSignatureOptionsProvider interface.
-            //services.AddSingleton<IPdfSignatureOptionsProvider, CustomPdfSignatureOptionsProvider>();
             services
                 .AddMvc()
                 .AddNewtonsoftJson();
