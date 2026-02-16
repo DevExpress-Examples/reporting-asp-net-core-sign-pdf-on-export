@@ -54,7 +54,7 @@ To sign the exported document, call the [PdfDocumentSigner.SaveDocument](https:/
 - [PDF Document API - Apply Multiple Signatures](https://github.com/DevExpress-Examples/pdf-document-api-multiple-signatures)
 - [PDF Document API - Add a Visual Signature to a PDF Document](https://github.com/DevExpress-Examples/pdf-document-api-add-visual-signature-to-pdf-document)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-sign-pdf-on-export&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-sign-pdf-on-export&~~~was_helpful=no)
 
